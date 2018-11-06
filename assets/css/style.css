@@ -1,0 +1,79 @@
+body {
+
+	background-image: url(../images/bg.jpg);
+
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+	background-repeat: no-repeat; /*not repeating bg*/
+	
+	color: #0e5f71; /*font color*/
+
+	height: 100vh; /*height of screen*/
+	font-family: 'Roboto', sans-serif;
+	/*wc schools*/
+}
+
+
+
+h1 {
+
+	font-size: 50px; /*font size*/
+
+	background-color: #333; 
+
+
+	text-transform: uppercase;
+
+	margin-bottom: 0;
+
+	letter-spacing: 3px;
+
+	font-family: 'Pattaya', sans-serif;
+}
+
+h2	{
+
+	text-transform: uppercase;
+
+	letter-spacing: 5px;
+	color: yellow;
+
+}
+
+#me {
+	/*targetting id "me"* use '#'*/
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;		
+	border-color: white;
+	margin-top: 50px;
+}
+
+.bio {
+	/*targetting class "bio"* use '.'*/
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	
+	/*background-color: #333;*/
+	/*opacity: 0.1; /*all items inside element bio will be affected*/
+
+	background-color: rgba(51, 51, 51, 0.3); /*rgba - a is opacity*/
+
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+
+	width: 500px;
+	margin: 0 auto; /*put text to center (0 is top and bottom margin, auto is putting to center), only if width is set.*/
+	text-align: center;
+
+}
